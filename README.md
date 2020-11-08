@@ -58,6 +58,7 @@ Use following command to generate a dist folder to enable server side rendering 
 ```sh
 npm run build:ssr
 ```
+This step is optional. You may or may not skip this step since dist folder is already attached with the project.
 
 #### 4. Serve the application
 Use following command to launch the application
