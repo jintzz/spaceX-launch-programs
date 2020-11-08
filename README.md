@@ -79,8 +79,7 @@ ng test
 <p>
     <img src="src/mobile_view_filter.JPG" alt="mobile-View-Filter" width="500" height="600">
     <img src="src/mobile_view_content.JPG" alt="mobile-View-Content" width="600" height="600">
-    <img src="src/tablet_view.JPG" alt="tablet-view" width="800" height="800">
-    <img src="src/desktop_view.JPG" alt="desktop-view" width="800" height="800">
+    <img src="src/desktop_view.JPG" alt="desktop-view" width="1000" height="800">
 </p>
 
 This project helps user to view the SpaceX mission details and filter the results based on the Launch Year, Launch status and landing status.
