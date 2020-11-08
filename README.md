@@ -82,9 +82,11 @@ ng test
 ```
 
 ## Usage
-<p>
-    <img src="src/mobile_view_filter.JPG" alt="mobileView" width="80" height="80">
-  </a>
+
+    <img src="src/mobile_view_filter.JPG" alt="mobile-View-Filter" width="300" height="400">
+    <img src="src/mobile_view_content.JPG" alt="mobile-View-Content" width="300" height="400">
+    <img src="src/tablet_view.JPG" alt="tablet-view" width="300" height="400">
+    <img src="src/desktop_view.JPG" alt="desktop-view" width="300" height="400">
 
 This project helps user to view the SpaceX mission details and filter the results based on the Launch Year, Launch status and landing status.
 <br/> On hitting the base url (http://localhost:4000/) user will be automatically redirected to the landing page (http://localhost:4000/launchBoard), where the filter and the mission details are listed.
