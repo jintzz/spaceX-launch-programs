@@ -1,0 +1,33 @@
+<div class="launch-list-container">
+    <div class="launch-item" *ngFor="let flight of flightHistory">
+        <!-- item start here -->
+        <div class="img-container" *ngIf="flight && flight.links">
+            <img src="{{flight.links.mission_patch_small}}">
+        </div>
+        <div class="info-container">
+            <h4>{{flight.mission_name}} #{{flight.flight_number}}</h4>
+            <div class="info-item">
+                <span class="item-label">Mission Ids:</span>
+                <li class="item-value" *ngFor="let id of flight.mission_id">{{id}}</li>
+            </div>
+            <div class="info-item">
+                <span class="item-label">Launch Year: </span>
+                <span class="item-value">{{flight.launch_year}}</span>
+            </div>
+            <div class="info-item">
+                <span class="item-label">Successful Launch: </span>
+                <span class="item-value">{{flight.launch_success}}</span>
+            </div>
+            <div class="info-item">
+                <span class="item-label">Successful Landing: </span>
+                <span class="item-value">{{landSuccess}}</span>
+            </div>
+        </div>
+    </div>
+    <div *ngIf="!flightHistory.length" class="error-container">
+        <div>
+            <h1 *ngIf="isInitialLoad">Loading...</h1>
+            <h1 *ngIf="!isInitialLoad">OOps!! No flights found</h1>
+        </div>
+    </div>
+</div>

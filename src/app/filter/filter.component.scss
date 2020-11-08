@@ -1,0 +1,82 @@
+.filter-header{
+    h2{
+        margin: 0;
+    }
+}
+.launch-year-title{
+    text-align: center;
+    width: 60%;
+    margin: 0 auto;
+    margin-bottom: 15px;
+    border-bottom: 1px solid grey;
+    padding-bottom: 4px;
+    font-size: 17px;
+}
+.launch-year-content{
+    display: grid;
+    grid-gap: 10px 50px;
+    grid-template-columns: auto auto;
+    justify-content: center;
+    margin-bottom: 25px;
+    .year-button{
+        width: 90px;
+        height: 35px;
+        border-radius: 8px;
+        border: none;
+        background-color: #b7d99a;
+        font-size: 16px;
+        cursor: pointer; 
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .year-button:hover,.year-button-selected {
+        background-color: #55a114;
+        border: none !important;
+    }
+}
+@media only screen and (min-width: 700px) {
+    h2{
+        font-size: 18px;
+    }
+    .launch-year-content{
+        grid-gap: 10px 30px;
+        .year-button{ 
+            width: 40px;
+            height: 20px;
+            border-radius: 4px;
+            font-size: 14px;
+        }
+    }
+    .launch-year-title{
+        width: 80%; 
+        font-size: 13px;
+    }
+  }
+@media only screen and (min-width: 1024px) {
+    h2{
+        font-size: 18px;
+    }
+    .launch-year-content{
+        grid-gap: 10px 30px;
+        .year-button{ 
+            width: 60px;
+            height: 30px;
+            border-radius: 4px;
+            font-size: 14px;
+        }
+    }
+    .launch-year-title{
+        width: 75%; 
+        font-size: 13px;
+    }
+  }
+  @media only screen and (max-width: 310px){
+    .launch-year-content .year-button{
+        width: 70px;
+        height: 35px;
+    }
+    .launch-year-title{
+        width: 66%;
+    }
+  }
