@@ -43,7 +43,8 @@ npm install npm@latest -g
 ```sh
 git clone https://github.com/jintzz/spaceX-launch-programs.git
 ```
-use git GUI or git bash based on your convenience. 
+use git GUI or git bash based on your convenience. <br/>
+You can also download the .zip folder and extract files if GIT is not installed.
 
 #### 2. Install NPM packages
 Run the following command from inside the cloned repo.
