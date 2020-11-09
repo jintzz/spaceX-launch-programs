@@ -128,7 +128,7 @@ Application is unit tested using Jasmine/Karma framework, with code coverage 86.
 <!-- CONTACT -->
 ## Contact
 
-Jintu Babu - [LinkedIn](https://www.linkedin.com/in/jintu-babu-4ba6b716b) - email@example.com
+Jintu Babu - [LinkedIn](https://www.linkedin.com/in/jintu-babu-4ba6b716b) - jintubabu06@gmail.com
 
 Project Link: [https://github.com/jintzz/spaceX-launch-programs.git](https://github.com/jintzz/spaceX-launch-programs.git)
 
